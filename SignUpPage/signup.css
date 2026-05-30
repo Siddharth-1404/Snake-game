@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html.body{
+    height: 100%;
+    width: 100%;
+}
+
+.bg-image{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/signUpBgImage.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.mid-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mid-sec h2{
+    padding-top: 280px;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #9d53cf;
+    text-decoration: underline;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.mid-sec h3{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    color: #56B66F;
+    font-family: "Cascadia Mono", sans-serif;
+    text-align: center;
+}
+
+.sec-btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.mail-bar{
+    height: 2.3vw;
+    width: 35vw;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 3px 3px white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    font-size: 1vw;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 20px;
+    font-size: 1vw;
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: #56B66F;
+    font-weight: 600;
+}
+
+.btn:hover{
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #56B66F;
+    font-weight: 600;
+}
+
+/* Mobile Responsive - Max Width 450px */
+@media (max-width: 450px) {
+    .bg-image{
+        min-height: 100vh;
+        width: 100vw;
+        background-image: url(../assets/signUpBgImage.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mid-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .mid-sec h2{
+        padding-top: 50px;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        color: #9d53cf;
+        text-decoration: underline;
+        word-spacing: 2px;
+        text-align: center;
+    }
+
+    .mid-sec h3{
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: #56B66F;
+        font-family: "Cascadia Mono", sans-serif;
+        text-align: center;
+    }
+
+    .mail-bar{
+        height: 2.5rem;
+        width: 100%;
+        max-width: 280px;
+        margin-top: 15px;
+        background-color: transparent;
+        border: 2px solid transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        color: antiquewhite;
+        font-size: 0.9rem;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .sec-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        max-width: 280px;
+        margin-top: 20px;
+        padding: 0 1rem;
+    }
+
+    .btn{
+        margin-top: 10px;
+        font-size: 0.9rem;
+        padding: 8px 15px;
+        background-color: transparent;
+        border: 2px solid transparent;
+        color: #56B66F;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .btn:hover{
+        border: 2px solid white;
+        border-radius: 7px;
+    }
+
+    .btn a{
+        text-decoration: none;
+        color: #56B66F;
+        font-weight: 600;
+    }
+}

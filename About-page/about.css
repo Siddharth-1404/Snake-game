@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.bg-image{
+    background-image: url(../assets/aboutBgImage.png);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head-font{
+    font-family: "Rationale", sans-serif;
+    padding-left: 50px;
+}
+
+#heading{
+    padding-top: 70px;
+    font-size: 4vw;
+    word-spacing: 10px;
+}
+
+#heading2{
+    margin-top: 30px;
+    font-size: 2vw;
+}
+p{
+    font-family: "Red Hat Mono", monospace;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.5vw;
+    word-spacing: 3px;
+}
+
+
+@media (max-width:768px) {
+    #heading{
+        padding-top: 50px;
+        font-size: 5vw;
+        word-spacing: 8px;
+}
+
+    #heading2{
+        margin-top: 30px;
+        font-size: 3vw;
+}
+    p{
+        font-family: "Red Hat Mono", monospace;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 2vw;
+        word-spacing: 2px;
+}
+}
+
+@media (max-width:450px) {
+    .head-font{
+        font-family: "Rationale", sans-serif;
+        padding-left: 30px;
+    }
+
+
+
+    #heading{
+        padding-top: 50px;
+        font-size: 7vw;
+        word-spacing: 8px;
+}
+
+    #heading2{
+        margin-top: 30px;
+        font-size: 5.5vw;
+}
+    p{
+        font-family: "Red Hat Mono", monospace;
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-right: 50px;
+        font-size: 3vw;
+        word-spacing: 1px;
+}
+}

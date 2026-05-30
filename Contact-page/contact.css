@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.bg-img{
+    background-image: url(../assets/aboutBgImage.png);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.bg-img h1{
+    font-size: 3vw;
+    color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+    font-family: "Rationale", sans-serif;
+    word-spacing: 7px;
+}
+
+.bg-img h2{
+    font-size: 1.6vw;
+    color: rgb(206, 198, 198);
+    padding-left: 50px;
+
+}
+
+.bg-img #line2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:768px) {
+
+.bg-img h1{
+    font-size: 5vw;
+    color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+    font-family: "Rationale", sans-serif;
+    word-spacing: 7px;
+}
+
+.bg-img h2{
+    font-size: 3vw;
+    color: rgb(206, 198, 198);
+    padding-left: 50px;
+
+}
+
+.bg-img #line2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width:450px) {
+
+.bg-img h1{
+    font-size: 7vw;
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-family: "Rationale", sans-serif;
+    word-spacing: 3px;
+}
+
+.bg-img h2{
+    font-size: 4vw;
+    color: rgb(206, 198, 198);
+    padding-left: 20px;
+
+}
+
+.bg-img #line2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+}
